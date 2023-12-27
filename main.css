@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #260146;
+}
+
+.allcontainer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.allcontainer .navbar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allcontainer .navbar h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+
+.allcontainer .navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.allcontainer .navbar ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+
+.allcontainer .navbar ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.allcontainer .navbar ul li:first-child a{
+    color: #DD03FF;
+}
+
+.allcontainer .navbar button{
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: #DD03FF;
+    border-radius: 3px;
+}
+
+.allcontainer .navbar button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.allcontainer .navbar ion-icon{
+    font-size: 30px;
+    color: #fff;
+    display: none;
+}
+
+.allcontainer main{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+    width: 100%;
+}
+.allcontainer main .mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allcontainer main .content{
+    color: #fff;
+}
+
+.allcontainer main .content h6{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.allcontainer main .content h1{
+    margin-bottom: 10px;
+}
+
+.allcontainer main .content p{
+    margin-bottom: 10px;
+}
+
+.allcontainer main .content .emailmessage{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DD03FF;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.allcontainer main .content .emailmessage input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+.allcontainer main .content .emailmessage button{
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #DD03FF;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.allcontainer main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid #070039;
+}
+
+.allcontainer main .latestproject{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.allcontainer main .latestproject h1{
+    color: #DD03FF;
+    margin-bottom: 10px;
+}
+.allcontainer main .latestproject p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.allcontainer main .latestproject ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.allcontainer main .latestproject ul li{
+    list-style: none;
+    margin-right: 15px;
+    border: 1px solid #DD03FF;
+    padding: 9px;
+    border-radius: 50px;
+}
+
+.allcontainer main .latestproject ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.allcontainer main .bannerWrapper{
+    margin-bottom: 20px;
+    background-color: #070039;
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 20px;
+
+}
+.allcontainer main .bannerWrapper .bannerImage{
+    background-image: url('celebrateDesign\ \(2\).jpg');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #DD03FF;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage1{
+    background-image: url('ibimage\ \(2\).webp');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage1 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage2{
+    background-image: url('ibgraphic\ \(2\).webp');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    
+}
+.allcontainer main .bannerWrapper .bannerImage2 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #DD03FF;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage3{
+    background-image: url('ibgraphixdesign\ \(1\).heic');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage3 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage4{
+    background-image: url('ibgraphixdesign\ \(1\).jpg');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+
+.allcontainer main .bannerWrapper .bannerImage4 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #DD03FF;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage5{
+    background-image: url('ibnew\ \(1\).jpg');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.allcontainer main .bannerWrapper .bannerImage5 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage6{
+    background-image: url('ibnew\ \(1\).webp');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage6 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #DD03FF;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage7{
+    background-image: url('ibnew\ \(2\).webp');
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage7 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .bannerWrapper .bannerImage8{
+    background-image: url('ibgraphixdesign\ \(2\).jpg');
+    width: 1120px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.allcontainer main .bannerWrapper .bannerImage8 .banner{
+    background-color: #070039;
+    font-size: 18px;
+    color: #DD03FF;
+    width: 1120px;
+    padding: 10px;
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.allcontainer main .monetize{
+    background-color: transparent;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border: 4px;
+    border-radius: 4px;
+}
+
+.allcontainer main .monetize h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+.allcontainer main .monetize .monetizeWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    gap: 15px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer{
+    width: 330px;
+    height: auto;
+    background-color: #070039;
+    border-radius: 10px;
+    padding: 30px;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #DD03FF;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer .monetizeinner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer .monetizeinner button{
+    width: 120px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: #DD03FF;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer .monetizeinner p{
+    margin-bottom: 0px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer h6{
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul {
+    margin-bottom: 20px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li .open{
+    color: #DD03FF;
+
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li .open ion-icon{
+    color: #fff;
+}
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li .close{
+    color: red;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.allcontainer main .monetize .monetizeWrapper .monetizeContainer .deliver{
+    color: #DD03FF;
+    text-align: center;
+}
+
+footer{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h3{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #DD03FF;
+}
+
+footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer p{
+    color: #070039;
+    font-weight: 700;
+}
+
+footer .footer p a{
+    text-decoration: none;
+    color: #070039;
+}
+
+footer .footer ul{
+    display: flex;
+    align-items: center;
+}
+
+footer .footer ul li{
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+footer .footer ul li ion-icon{
+    color: #DD03FF;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .footer ul li a{
+    text-decoration: none;
+    color: #070039;
+    font-weight: 400;
+}
+
+@media (max-width: 1120px){
+    
+}
+@media (max-width: 800px){
+    .allcontainer main .mainContainer .content{
+        order: 1;
+    }
+
+    .allcontainer main .mainContainer img{
+        margin-bottom: 30px;
+    }
+
+    .allcontainer main .mainContainer {
+        flex-wrap: wrap;
+    }
+
+    .allcontainer main .mainContainer .content{
+        margin-bottom: 50px;
+    }
+
+    .allcontainer main .bannerWrapper .bannerImage8{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .allcontainer .navbar ion-icon{
+        display: block;
+    }
+
+    .allcontainer .navbar ul{
+        position: absolute;
+        top: 10%;
+        display: block;
+        background-color: #DD03FF;
+        width: 30%;
+        height: 1000px;
+        padding: 25px;
+        margin-left: -5%;
+        display: none;
+    }
+    .allcontainer .navbar ul.open{
+        display: block;
+    }
+    .allcontainer .navbar ul li{
+        margin-bottom: 15px;
+    }
+    .allcontainer .navbar ul li:first-child a{
+        color: #070039;
+    }
+
+    .allcontainer main .bannerWrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 220px);
+        gap: 20px;
+    
+    }
+    .allcontainer main .bannerWrapper .bannerImage{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage1{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage2{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage3{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage4{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage5{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage6{
+        width: 230px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage7{
+        width: 230px;
+    }
+
+    .allcontainer main .monetize h3{
+        font-size: 25px;
+    }
+    
+    footer .footer{
+        display: block;
+    }
+
+    footer .footer p{
+        margin-bottom: 10px;
+    }
+
+    footer .footer ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .allcontainer main .bannerWrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        gap: 20px;
+    
+    }
+    .allcontainer main .bannerWrapper .bannerImage{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage1{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage1 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage2{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage2 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage3{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage3 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage4{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage4 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage5{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage5 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage6{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage6 .banner{
+        width: 300px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage7{
+        width: 300px;
+        height: 400px;
+    }
+    .allcontainer main .bannerWrapper .bannerImage7 .banner{
+        width: 300px;
+    }
+}
+
+@media (max-width: 530px){
+    .allcontainer main .latestproject ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 350px);
+    }
+}
+
+@media (max-width: 500px){
+    .allcontainer .navbar ul{
+        width: 55%;
+    }
+
+    .allcontainer main .content .emailmessage{
+        width: 300px;
+    }
+}
+
